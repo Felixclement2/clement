@@ -30,11 +30,10 @@
 }
 
 .comp2 {
-  width: 100%;
+  width: 110%;
   height: 150px;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
-  height: 250px;
 }
 .comp3 {
   display: flex;
@@ -53,8 +52,8 @@
 
 .link {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: right;
+  gap: 80px;
 }
 
 .link a {
@@ -66,27 +65,64 @@
 
 .comp4 {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 250px;
-  width: 200px;
+  font-size: 30px;
+  justify-content: space-between;
 }
 
 .comp4p p {
-  font-size: 50px;
+  font-size: 40px;
   color: red;
 }
 
 .comp4pp p {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .comp5pp {
-  font-size: 50px;
+  font-size: 25px;
 }
 .comp5 {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 250px;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.picture {
+  width: 450px;
+  height: 400px;
+}
+.comp6 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.comp6pp {
+  font-size: 25px;
+}
+.banner {
+  width: fit-content;
+  height: fit-content;
+}
+.container2 {
+  height: 500px;
+  width: 1270px;
+  background-color: black;
+  font-display: WHITE;
+  text-decoration-color: white;
+}
+.text33 {
+  color: white;
+  font-size: 80px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  padding: 10px;
+}
+.comp7 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.comp7pp {
+  font-size: 25px;
+  color: white;
 }
