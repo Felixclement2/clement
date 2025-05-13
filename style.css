@@ -70,7 +70,7 @@
 }
 
 .comp4p p {
-  font-size: 40px;
+  font-size: 50px;
   color: red;
 }
 
@@ -86,21 +86,32 @@
   justify-content: space-between;
   font-size: 30px;
 }
+.comp5p {
+  width: 100px;
+  height: 100px;
+  size: 20px;
+}
 .picture {
-  width: 450px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 .comp6 {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   font-size: 25px;
 }
 .comp6pp {
   font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.comp6p {
+  size-adjust: 20px;
 }
 .banner {
-  width: fit-content;
-  height: fit-content;
+  width: 1050px;
+  height: 1025px;
+  size-adjust: 50px;
 }
 .container2 {
   height: 500px;
